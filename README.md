@@ -1,5 +1,4 @@
-# hackathonunb
-HACKATHON UnB-FGA 2020
+#HACKATHON UnB-FGA 2020
 
 Tema 1 - Informação e Saúde
 Desafio - Informar é Previnir
