@@ -30,4 +30,4 @@ disponível por região.
 
  Grupo 1 – Informação e saúde;
 
-Gabriel, Anne Caroline, Lucas José, Kátia Araujo, João Pedro Riuto(BrainStorm);
+Gabriel, Anne Caroline, Lucas José, Kátia Araujo, João Pedro Riuto;
