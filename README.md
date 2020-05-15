@@ -1,8 +1,8 @@
 
-#HACKATHON UnB-FGA 2020
+# HACKATHON UnB-FGA 2020
 
-**Tema 1 - Informação e Saúde
- Desafio - Informar é Previnir
+## Tema 1 - Informação e Saúde
+### Desafio - Informar é Previnir
 
 ![hackaton unb](/images/logo.png)
 
@@ -28,6 +28,6 @@ OBJETIVO:
 Administrativas os casos mapeados de COVID-19 e a infraestrutura de atendimento de saúde
 disponível por região.
 
-**Grupo 1 – Informação e saúde;**
+ Grupo 1 – Informação e saúde;
 
-_Gabriel, Anne Caroline, Lucas José, Kátia Araujo, João Pedro Riuto(BrainStorm);
+Gabriel, Anne Caroline, Lucas José, Kátia Araujo, João Pedro Riuto(BrainStorm);
