@@ -3,6 +3,7 @@
 }
 body {
     margin: 0px;
+    background-color: lightblue;
 }
 .sticky {      
     color: #FFF;        
@@ -13,35 +14,65 @@ body {
     width: 99%;
     top: 0px;
 }
-.cabecalho {        
+.cabecalho {
+    display:flex;        
     background-color:cornflowerblue;
     height: 100px;
     border-bottom: 4px solid black;
-    text-align: center;        
+    /* text-align: center; */
 }
-.menu {
-    display: inline-block;        
+.menu { 
     font-size: 1.5em;
-    margin-top: 30px;
-    text-align: center;
-            
+    justify-content:space-between;
+    flex-grow: 8;                
 }
-.menu a {
-    display:inline-block;
-    padding: 10px;
-    border-radius: 25px;
+.menu li {
+    display: inline-flex;    
+    padding:10px 15px;  
+    
 }
-.menu a:hover {
+.menu li:hover {
     background-color:rgb(75, 114, 185);
-    color:darkgrey;
+    color:rgb(238, 235, 235);
+    border-radius: 25%;
+}
+.logo{
+    display:inline-flex;   
+    align-content:flex-start;
+    
+}
+
+.logo img {
+    height:90px;
+    
+}
+
+.autenticacao{
+    flex-grow: 1;
+     padding: 30px 00px;
+     flex-grow: 1;     
+}
+
+.autenticacao a:hover {
+    color: rgb(22, 190, 22);
+    border-radius: 25%;
+    background-color:rgb(75, 114, 185);
+}
+
+.autenticacao a{    
+   padding: 10px 10px;
+   margin: 10px 10px;
+   
 }
 
 .conteudo {
-    display:inline-block;
-    height: 2000px;
-    width: 90%;
+    display:grid;
+    grid-template-columns:2000px;
+    max-width: 8650%;
     background-color:lightblue;
-    position:absolute;
+    margin-left: 14%;
+    margin-top: -3px;
+    
     
 }
 
@@ -56,4 +87,46 @@ body {
     height: 450px;
     width: 100%;
     border-bottom:black 5px solid;
+}
+
+.navegs {
+    display: inline-block;
+    top: 542px;
+    padding: 0px;
+    position:fixed;
+    
+}
+
+.navegs p { 
+    
+    border-bottom-right-radius: 30%;
+    padding: 0px 24px 0px 45px;
+    background-color: rgb(71, 114, 188);
+    width: 100%;
+    height: 55px;
+    font-weight: 900;
+    font-size: 1.4em;
+    text-align: center;
+    color: rgb(213, 223, 238);
+    box-shadow: rebeccapurple 5px 5px;
+    
+}
+
+.navegs p:hover{
+    background-color: rgb(98, 138, 224);
+    color: rgb(154, 213, 236);
+    box-shadow:slateblue 5px 5px;
+}
+
+/* Alinhar o conteúdo */
+.conteudo {
+    display: grid;
+    grid-template-columns: 800%;
+    padding-bottom: 2000px;
+}
+
+.caixa {
+    padding: 1%;
+    max-width: 800px;
+    align-items: center;
 }
