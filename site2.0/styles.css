@@ -1,0 +1,139 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-width: 100vh;
+    background-color:lightblue;
+    align-content: center;
+}
+
+.sticky {            
+    margin: 0;   
+    position: -webkit-sticky;
+    position: sticky;  
+    top: 0px;
+}
+
+.cabecalho {
+   height: 120px;
+   background-color: rgb(146, 184, 255);
+   justify-content: flex-start;    
+   border-bottom: 5px solid black;    
+   
+}
+
+.logo{
+    margin-top: -56px;
+   height: 220px;
+   padding-left: 30px;
+}
+
+.naveg {
+    font-size: 1.8em;
+    padding-left: 12%;
+    margin-top: -130px;
+}
+
+.naveg li {
+    display: inline-flex;
+    color: #fff;
+    margin-left: 20px;
+    padding: 5px;
+}
+.naveg li:hover {
+    background-color: cornflowerblue;
+    border-radius: 10%;
+}
+
+.autenticacao{
+    float: right;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+
+.banner img {    
+    position:relative;
+    margin-top: 0px;
+    height: 27em;
+    width: 100%; 
+    border-bottom: 5px solid black; 
+}
+
+.status {       
+    display: inline-flex;   
+    align-self: center;
+    padding: 5px;
+}
+
+.item {
+    margin-left: 15px;          
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    background-color: brown;
+    padding: 5em 5vw;
+    box-shadow: 5px 5px rgb(92, 10, 10);
+
+}
+
+.item:hover {
+    filter:brightness(80%)
+}
+
+.conteudo {     
+    background-color:rgb(161, 212, 230);    
+    height: 100vh;
+    margin-top: 5px;
+    margin-left: 12%;
+    margin-right: 12%;
+    border-radius: 6%;
+}
+.lateral {
+    position: fixed;    
+    width: 11%;
+    margin-top: 572px;
+    margin-left: 0px;    
+    padding-right:40px;
+
+}
+.lateral ul{    
+    list-style-type: none;     
+}
+
+.lateral ul li {
+    background-color: cornflowerblue;    
+    font-size: 1.5em;
+    text-align: center;
+    color:cornsilk;
+    padding: 5% 2%;
+    margin-bottom: 14px;
+    border-bottom-right-radius: 25%;
+    box-shadow: 5px 5px rgb(107, 43, 226);
+
+}
+
+.lateral ul li:hover {
+    filter: brightness(80%);
+    box-shadow: rgb(74, 31, 153);
+}
+
+
+
+@media (max-width: 750px){
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 80px 1fr 100px;
+
+        grid-area:
+            'navegacao'
+            'conteudo'
+            'rodape';
+       }
+       .naveg {
+           display: none;
+       }
+} 
